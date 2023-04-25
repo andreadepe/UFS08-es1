@@ -1,0 +1,145 @@
+body {
+  font-family: "Lexend";
+}
+
+nav {
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dadbf1;
+  padding: 3em;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 3em;
+}
+
+footer {
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-around;
+  padding-bottom: 3em;
+}
+
+nav input[type="button"] {
+  border-radius: 4px;
+  padding: 0.3em 1em;
+}
+
+.navLeft {
+  display: flex;
+  justify-items: center;
+  padding-left: 3em;
+}
+
+.navLeft > .icon {
+  align-self: center;
+}
+
+.navLeft ul {
+  padding-left: 0.5em;
+}
+
+.navLeft li {
+  display: inline;
+}
+
+.navLeft li ~ li {
+  margin-left: 0.3em;
+  padding-left: 0.5em;
+  border-left: solid 1px #fff;
+}
+
+.navRight {
+  margin: 0.7em 3em 0.7em 2em;
+}
+
+.blackBtn {
+  border: solid 1px #fff;
+  background-color: #000000;
+  color: #fff;
+}
+
+.signIn {
+  background-color: #4c5fd5;
+  color: #fff;
+}
+
+header h1 {
+  font-weight: normal;
+  font-size: 3em;
+}
+
+header input[type="text"] {
+  width: 40%;
+  height: 2em;
+  padding: 0.2em 0.5em;
+}
+
+main > div {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  max-width: 80%;
+}
+
+main article {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 50%;
+  min-width: 15em;
+  margin-bottom: 2em;
+}
+
+article > picture {
+  max-width: 45%;
+}
+
+article > picture > img {
+  content-visibility: auto;
+  max-width: 75%;
+  height: auto;
+}
+
+article > div {
+  width: 55%;
+}
+
+.footerList {
+  margin-bottom: 4em;
+}
+
+.footerList > ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.copyright {
+  align-self: flex-end;
+}
+
+.copyright p {
+  margin-bottom: 0;
+}
+
+.copyright p ~ p {
+  margin-top: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
