@@ -84,7 +84,8 @@ header h1 {
 }
 
 header input[type="text"] {
-  width: 40%;
+  width: 35em;
+  max-width: 80%;
   height: 2em;
   padding: 0.2em 0.5em;
 }
